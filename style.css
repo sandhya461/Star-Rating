@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+}
+.c_h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.c_d1{
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    /* margin: 2rem; */
+}
+.star{
+    text-align: center;
+}
+.star:before{
+    content: "☆";
+    font-size: 3rem;
+    color: rgba(231, 198, 10, 0.685);
+    cursor: pointer;
+    
+}
+.star:hover:before{
+    content: "★";
+    font-size: 3rem;
+    color: rgba(231, 198, 10, 0.685);
+    cursor: pointer;
+}
+.woarst{
+    font-size: 2rem;
+}
+.s_p{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.emoji_c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}

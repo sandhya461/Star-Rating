@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Rating</title>
+    <!-- font awesome cdn 5.15.2 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="c_h1">Star Rating</h1>
+        <div class="s_p">
+            <span class="star" id="s1" onclick="worst()"></span>
+            <span class="star" id="s2" onclick="bad()"></span>
+            <span class="star" id="s3" onclick="neutral()"></span>
+            <span class="star" id="s4" onclick="good()"></span>
+            <span class="star" id="s5" onclick="excellent()"></span>
+        </div>
+        
+        <div class="c_d1">Click to set the rating</div>
+        <div class="emoji_c">
+            <span class="woarst" id="woarst" title="woarst" style="display: none;">😢</span>
+            <span class="woarst" id="bad" title="bad" style="display: none;">😞</span>
+            <span class="woarst" id="neutral" title="neutral" style="display: none;">😐</span>
+            <span class="woarst" id="good" title="good" style="display: none;">😀</span>
+            <span class="woarst" id="excellent" title="excellent" style="display: none;">😎</span>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
